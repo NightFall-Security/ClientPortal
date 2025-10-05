@@ -1,0 +1,21 @@
+.c-button {
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 550;
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+}
+
+.c-button__colored {
+    background-color: var(--bg-color);
+    color: white;
+}
+
+.c-button__scale {
+    &:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease-in-out;
+    }
+}
+

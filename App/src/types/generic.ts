@@ -1,0 +1,1 @@
+export type IsNullOrEmptyString<T> = T extends '' | null | undefined ? true : false;
